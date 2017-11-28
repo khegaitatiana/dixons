@@ -3,7 +3,7 @@
  * User: Tatiana Khegai
  * Date: 11/28/2017
  */
-include_once("IElasticSearchDriver.php");
+include_once("interface/IElasticSearchDriver.php");
 
 class ElasticSearch implements IElasticSearchDriver
 {

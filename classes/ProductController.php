@@ -6,7 +6,7 @@
 include_once("ElasticSearch.php");
 
 class ProductController {
-    private $_dataFolderName = 'product';
+    private $_dataFolderName = 'cache/product';
     private $productId;
 
     /**
